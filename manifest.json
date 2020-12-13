@@ -1,18 +1,27 @@
 {
   "homepages": [],
-  "source_base_path": "D:/visual studio 2019 project/測試DocFX/EXDocFX",
+  "source_base_path": "D:/GitTest/DocFXCSharp/EXDocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "YbaQxjJeS3DXNnvIl6SgwQ=="
+          "hash": "wo3IpAeyWBrpmJRK1OkuoA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,19 +30,77 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "s9qEVcYlRbp+ngRcbzOdSQ=="
+          "hash": "UaVzTng3i1utj7QNPVOgyA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.md",
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro2.md",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "relative_path": "articles/intro2.html",
+          "hash": "e2XfdPnpjK5OEQ8IuqSieg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro3.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro3.html",
+          "hash": "CeUboA1a0R+vfSOma6B1tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro4.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro4.html",
+          "hash": "dlK+tchX9R2g6y/DPddH+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro5.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro5.html",
+          "hash": "0OiyPSRgg4pkSYn0ptpBbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pig25px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pig25px.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pigwhite50px.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pigwhite50px.png"
         }
       },
       "is_incremental": false,
@@ -45,19 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "3BuyWI8J1COVCPa1tamcGQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "n0JgDcdjm+Y2NUZlP+Ke5w=="
+          "hash": "9jXlZpaHN/k5rXLRZC6TFQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/測試DocFX.EX.html",
-          "hash": "1XH5bm3XDAPytWwjhZqxHA=="
+          "hash": "xtfRjyvAd1/EpwqS/BF/1g=="
         }
       },
       "is_incremental": false,
@@ -81,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/測試DocFX.Form1.html",
-          "hash": "NCzqLU8pxfSS9KWZC4qnmQ=="
+          "hash": "pBUkTdCHEHEIPde6WT3Spw=="
         }
       },
       "is_incremental": false,
@@ -93,19 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/測試DocFX.html",
-          "hash": "HgLS8zqGV5RpvAug5zWm/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+          "hash": "7h6r/aM0556v8Zug+Re0+g=="
         }
       },
       "is_incremental": false,
@@ -115,23 +158,32 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
+          "total_file_count": 7,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 1
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -144,8 +196,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
